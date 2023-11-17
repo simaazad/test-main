@@ -48,4 +48,10 @@
                 background-size: cover;
                 background-position: center;
             }
+            .txt h3 {
+                top: 80%;
+            }
+            .txt a {
+                top: 90%;
+            }
         }
