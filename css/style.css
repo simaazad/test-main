@@ -1,41 +1,51 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
-}
-
-.main {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../img/IMG_6152.JPG);
-    background-size: cover;
-    background-position: center;
-}
-
-.txt {
-    background: #0e0b0b;
-}
-
-.txt h3 {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    background-color: rgba(46, 42, 42, 0.5);
-    text-align: center;
-    color: aliceblue;
-    padding: 8px;
-}
-
-.txt a {
-    text-align: center;
-    color: aliceblue;
-    position: absolute;
-    top: 60%;
-    left: 8%;
-    transform: translateY(-50%);
-    background-color: rgba(99, 209, 209, 0.8);
-    text-decoration: none;
-    padding: 8px;
-}
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Josefin Sans', sans-serif;
+            box-sizing: border-box;
+        }
+        
+        .main {
+            height: 100vh;
+            width: 100%;
+            background-image: url(../img/IMG_6152.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .txt {
+            background: #0e0b0b;
+        }
+        
+        .txt h3 {
+            position: absolute;
+            top: 50%;
+            left: 8%;
+            transform: translateY(-50%);
+            background-color: rgba(46, 42, 42, 0.5);
+            text-align: center;
+            color: aliceblue;
+            padding: 8px;
+        }
+        
+        .txt a {
+            text-align: center;
+            color: aliceblue;
+            position: absolute;
+            top: 60%;
+            left: 8%;
+            transform: translateY(-50%);
+            background-color: rgba(99, 209, 209, 0.8);
+            text-decoration: none;
+            padding: 8px;
+        }
+        
+        @media (max-width:480px) {
+            .main {
+                height: 100vh;
+                width: 100%;
+                background-image: url(../img/IMG_6151.JPG);
+                background-size: cover;
+                background-position: center;
+            }
+        }
