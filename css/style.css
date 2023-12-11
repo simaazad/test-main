@@ -13,10 +13,6 @@
             background-position: center;
         }
         
-        .txt {
-            background: #0e0b0b;
-        }
-        
         .txt h3 {
             position: absolute;
             top: 50%;
@@ -49,7 +45,8 @@
                 background-position: center;
             }
             .txt h3 {
-                top: 80%;
+                c top: 80%;
+                padding: 2px;
             }
             .txt a {
                 top: 90%;
